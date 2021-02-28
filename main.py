@@ -12,16 +12,6 @@ event_dict = {}
 @client.event
 async def on_ready():
     print("We have logged in as {0.user}".format(client))
-
-    #i'm kind of just messing with discord bot documentation
-    #but I would like it to have it so: when you react to the event,
-    # something happens? kind of like signing up, or it shows 
-    #all attendees
-    
-  # maybe we can create another dict where class names are the keys and the lists of attendees are the values
-  # like: "class name" : [attendee 1, attendee 2, etc]
-#^ yesss
-  # or instead of an attendee list, classes can have events - study sessions/tutoring or something
   
   
 @client.event
